@@ -5,7 +5,7 @@ const embed = require("../../structures/embeds");
 module.exports = {
   name: "dj",
   aliases: ["set-dj"],
-  description: "Set Dj Role To Controle The Bot",
+  description: "لتعيين رتبه ديجي للتحكن في البوت",
 
   /**
    *
@@ -48,9 +48,9 @@ module.exports = {
         } else
           embed.err(message, "**You Need To get adminstrator permissions**");
       } else if (lang == "ar") {
-        if (!role) return embed.warn(message, "**يجب تعين رول الدي جاي**");
+        if (!role) return embed.warn(message, "**يجب تعين رول ديجي**");
         if (!toogle)
-          return embed.warn(message, "**يجب تعيل التوجل ['on', 'off']**");
+          return embed.warn(message, "**يجب الاختيار ['on', 'off']**");
         if (
           message.member.permissions.has([Permissions.FLAGS.ADMINISTRATOR]) ||
           message.member.roles.cache.find(
@@ -71,7 +71,7 @@ module.exports = {
               toogle +
               "` mode"
           );
-        } else embed.err(message, "**يجب انت تحصل على صلحيات الأدمنستناتور**");
+        } else embed.err(message, "**يجب انت تحصل على صلاحيه الادمنستريتر**");
       }
     } catch {
       console.log("rexom");
