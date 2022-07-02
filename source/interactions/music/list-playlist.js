@@ -13,7 +13,7 @@ const embed = require("../../structures/embeds");
 
 module.exports = {
   name: "list-playlist",
-  description: "preview all your playlists",
+  description: "معاينة جميع قوائم التشغيل الخاصة بك",
   type: "CHAT_INPUT",
   /**
    *
