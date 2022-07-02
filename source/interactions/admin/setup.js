@@ -11,7 +11,7 @@ const embed = require("../../structures/embeds");
 
 module.exports = {
   name: "setup",
-  description: "Setup A Music Collector Channel",
+  description: "لصنع او اختيار شات تحكم في البوت عن طريق الرياكشن",
   type: "CHAT_INPUT",
   /**
    *
@@ -28,23 +28,23 @@ module.exports = {
       )
         return interaction.react(emojis.error);
       interaction.guild.channels
-        .create("rexom-🎶", {
+        .create("𝐈𝐦𝐦𝐨𝐫𝐭𝐚𝐥𝐬-🎶", {
           type: "GUILD_TEXT",
           topic: "Give your server a tune. :notes:",
         })
         .then(async (channel) => {
           embed.done(
             interaction,
-            "**reXom Channel Has Setup Here**: <#" + channel.id + ">",
+            "**𝐈𝐦𝐦𝐨𝐫𝐭𝐚𝐥𝐬 Channel Has Setup Here**: <#" + channel.id + ">",
             "/"
           );
           channel
             .send({
               embeds: [
                 new MessageEmbed()
-                  .setAuthor("No song playing currently")
+                  .setAuthor("ماكو شي مشتغل اصلا!")
                   .setImage(
-                    "https://media.discordapp.net/attachments/743880363331420241/902711609112264804/unknown.png"
+                    "https://cdn.discordapp.com/icons/947196669341106306/7af1e18bb50cce6d2d4730755e08ae1e.png?size=1024"
                   ),
               ],
             })
