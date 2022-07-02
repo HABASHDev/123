@@ -13,7 +13,7 @@ const embed = require("../../structures/embeds");
 module.exports = {
   name: "seek",
   aliases: [],
-  description: "Skips to the specified timestamp in the track",
+  description: "يتخطى الثواني المكتوبه مع الامر",
 
   /**
    *
