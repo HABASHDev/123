@@ -13,12 +13,12 @@ const embed = require("../../structures/embeds");
 
 module.exports = {
   name: "play-playlist",
-  description: "play your playlist",
+  description: "تشغيل قائمة التشغيل الخاصة بك",
   type: "CHAT_INPUT",
   options: [
     {
       name: "name",
-      description: "the name of the playlist",
+      description: "اسم قائمة التشغيل ",
       type: "STRING",
       required: true,
     },
