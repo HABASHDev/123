@@ -9,13 +9,13 @@ module.exports = {
         this.client
           .login(process.env.TOKEN)
           .then(async function (token) {
-            console.log(yellow.bold(require("figlet").textSync("Rexom")));
+            console.log(yellow.bold(require("figlet").textSync("𝐈𝐦𝐦𝐨𝐫𝐭𝐚𝐥𝐬")));
             console.log(
               red.bold("Discord.JS Is Connect On: ") +
                 green(token.split(".")[0] + "****************")
             );
             console.log(
-              blue.bold("https://discord.com/users/746696275214467112") +
+              blue.bold("https://discord.com/users/657596988149202997") +
                 red(" If You Need Support!!.")
             );
           })
