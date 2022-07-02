@@ -11,7 +11,7 @@ const embed = require("../../structures/embeds");
 module.exports = {
   name: "stop",
   aliases: [],
-  description: "Stop The Music",
+  description: "أوقف الموسيقى",
 
   /**
    *
@@ -36,7 +36,7 @@ module.exports = {
         const queue = player.getQueue(message);
         if (!queue) return embed.notQueue(message, lang);
         player.stop(message);
-        embed.done(message, "**تم ايقاف الموسقى**");
+        embed.done(message, "**تم ايقاف الموسقى حوبي**");
       }
     } catch {
       console.log("rexom");
