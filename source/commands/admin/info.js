@@ -27,7 +27,7 @@ module.exports = {
         .setAuthor(
           client.ws.ping.toFixed(1),
           client.user.avatarURL({dynamic:true}),
-          "https://discord.com/users/746696275214467112"
+          "https://discord.com/users/657596988149202997"
         )
         .setThumbnail(client.user.displayAvatarURL())
         .setColor(0x2f3136)
