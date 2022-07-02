@@ -7,7 +7,7 @@ const embed = require("../../structures/embeds");
 module.exports = {
   name: "loop",
   aliases: [],
-  description: "Loop Queue/Song",
+  description: "لتكرار الاغنيه الحاليه",
 
   /**
    *
