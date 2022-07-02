@@ -10,18 +10,18 @@ const embed = require("../../structures/embeds");
 
 module.exports = {
   name: "dj",
-  description: "Set DJ Role",
+  description: "لصنع رتبه ديجي",
   type: "CHAT_INPUT",
   options: [
     {
       name: "role",
-      description: "the dj role",
+      description: "اختر رتبه الديجي",
       type: "ROLE",
       required: true,
     },
     {
       name: "toggle",
-      description: "the dj role toggle",
+      description: "تبديل رتبه الديجي",
       type: "STRING",
       required: true,
       choices: [
@@ -125,7 +125,7 @@ module.exports = {
         } else
           return embed.err(
             interaction,
-            "**يجب انت تحصل على صلحيات الأدمنستناتور**",
+            "**يجب انت تحصل على صلاحية الادمنستريتر**",
             "/"
           );
       }
