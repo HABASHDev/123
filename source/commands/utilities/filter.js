@@ -7,7 +7,7 @@ const embed = require("../../structures/embeds");
 module.exports = {
   name: "filter",
   aliases: ["set-filter"],
-  description: "songs filters",
+  description: "فلاتر ألاغاني",
 
   /**
    *
@@ -56,7 +56,7 @@ module.exports = {
         let row = new MessageActionRow().addComponents(selector);
         message
           .reply({
-            content: "رجى اختيار الفيلتر المناسب.",
+            content: "يرجى اختيار الفيلتر المناسب.",
             allowedMentions: {
               repliedUser: false,
             },
