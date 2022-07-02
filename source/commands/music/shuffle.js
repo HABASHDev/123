@@ -13,7 +13,7 @@ const embed = require("../../structures/embeds");
 module.exports = {
   name: "shuffle",
   aliases: [],
-  description: "Randomizes the queue",
+  description: "يعشوئ او يرتب قائمة الانتظار",
 
   /**
    *
