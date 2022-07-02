@@ -7,7 +7,7 @@ const embed = require("../../structures/embeds");
 module.exports = {
     name: "save-playlist",
     aliases: [],
-    description: "save a playlist",
+    description: "حفظ قائمة التشغيل",
 
     /**
      * 
