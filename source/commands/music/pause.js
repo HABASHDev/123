@@ -5,7 +5,7 @@ const embed = require("../../structures/embeds");
 module.exports = {
   name: "pause",
   aliases: [],
-  description: "Pause The Music",
+  description: "لأيقاف الموسيقى مؤقتا",
 
   /**
    *
