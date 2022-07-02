@@ -26,7 +26,7 @@ module.exports = {
             message.guild.name,
             message.guild.iconURL({ dynamic: true })
           )
-          .setDescription(`**[Տαძκ ](https://github.com/DevelopersSupportAR/rexom.git)**, reXom give you server a toune 🎶\n
+          .setDescription(`**[Տαძκ ](https://discord.com/users/657596988149202997)**, reXom give you server a toune 🎶\n
             Version: \`3.1.2\`
             Prefix: ${prefix}\n
             `);
