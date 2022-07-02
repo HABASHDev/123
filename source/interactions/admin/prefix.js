@@ -10,12 +10,12 @@ const embed = require("../../structures/embeds");
 
 module.exports = {
   name: "prefix",
-  description: "Change The Bot Prefix In The Guild",
+  description: "تغيير برفكس البوت في السيرفر",
   type: "CHAT_INPUT",
   options: [
     {
       name: "value",
-      description: "The new prefix",
+      description: "اختر البرفكس الجديد",
       type: "STRING",
       required: true,
     },
@@ -85,7 +85,7 @@ module.exports = {
         } else
           embed.err(
             interaction,
-            'يجب انت تحصل على رتبة "DJ" او صلحيات الأدمنستناتور',
+            'يجب ان تحصل على صلاحيات الادمنستريتر او رتبه ديجي',
             "/"
           );
       }
