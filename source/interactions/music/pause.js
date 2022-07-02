@@ -6,7 +6,7 @@ const embed = require("../../structures/embeds");
 
 module.exports = {
     name: "pause",
-    description: "Pause The Music",
+    description: "لأيقاف الموسيقى مؤقتا",
     type: 'CHAT_INPUT',
 
     /**
