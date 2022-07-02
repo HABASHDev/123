@@ -37,7 +37,7 @@ module.exports = {
           .setColor("YELLOW")
           .setImage(
             track.Thumbnail ||
-              "https://media.discordapp.net/attachments/743880363331420241/902711609112264804/unknown.png"
+              "https://cdn.discordapp.com/icons/947196669341106306/7af1e18bb50cce6d2d4730755e08ae1e.png?size=1024"
           )
           .setDescription(
             `${queue.paused == true ? ":pause_button:" : ":arrow_forward:"} | ${
