@@ -3,7 +3,7 @@ const db = require('quick.db');
 
 module.exports = {
     name: "info",
-    description: "See Bot Info",
+    description: "معلومات البوت",
     type: 'CHAT_INPUT',
 
     /**
