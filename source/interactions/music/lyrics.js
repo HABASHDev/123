@@ -11,7 +11,7 @@ const embed = require("../../structures/embeds");
 
 module.exports = {
   name: "lyrics",
-  description: "Song lyrics",
+  description: "كلمات الاغنيه",
   type: "CHAT_INPUT",
 
   /**
