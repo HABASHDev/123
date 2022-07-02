@@ -6,7 +6,7 @@ const { player } = require("../../index");
 module.exports = {
   name: "lyrics",
   aliases: [],
-  description: "Song lyrics",
+  description: "كلمات الاغنيه",
 
   /**
    *
