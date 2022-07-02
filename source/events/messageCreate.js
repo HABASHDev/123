@@ -40,7 +40,7 @@ module.exports = async (client, message) => {
                     .setImage(
                       queue
                         ? queue.songs[0].thumbnail
-                        : "https://media.discordapp.net/attachments/743880363331420241/902711609112264804/unknown.png"
+                        : "https://cdn.discordapp.com/icons/947196669341106306/7af1e18bb50cce6d2d4730755e08ae1e.png?size=1024"
                     )
                     .setFooter(
                       `${queue ? queue.songs.length : 0} in load | ${
@@ -75,7 +75,7 @@ module.exports = async (client, message) => {
         return message.reply({
           ephemeral: true,
           content:
-            emojis.error + " | You can't use bot commands with out DJ role",
+            emojis.error + " | لايمكنك استخدام اوامر البوت بدون رتبه ديجي",
         });
     }
     const argument = message.content.slice(prefix.length).trim().split(/ +/g);
@@ -101,9 +101,9 @@ module.exports = async (client, message) => {
             new MessageEmbed()
               .setColor("#FC0000")
               .setDescription(
-                `**🕘 | You Are In Cooldown Please Wait \`${time_left.toFixed(
+                `**🕘 | أنت في فترة التهدئة من فضلك انتظر \`${time_left.toFixed(
                   1
-                )}\` To Use \`${prefix}${command.name}\` Again**`
+                )}\` ليستخدم \`${prefix}${command.name}\` ثانية**`
               ),
           ],
         });
@@ -115,7 +115,7 @@ module.exports = async (client, message) => {
     try {
       command.run(client, message, args, prefix, lang);
     } catch (e) {
-      message.reply({ content: ":x: | Something went wrong ```" + e + "```" });
+      message.reply({ content: ":x: | هناك خطأ ما ```" + e + "```" });
     }
   } catch (err) {
     console.log(err);
