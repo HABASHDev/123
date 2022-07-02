@@ -12,7 +12,7 @@ const axios = require("axios");
 module.exports = {
   name: "tiktok",
   aliases: ["ttk", "tik"],
-  description: "Download and preview the data of the tiktok video",
+  description: "لتنزيل فيديوهات من تيك توك",
 
   /**
    *
@@ -288,7 +288,7 @@ module.exports = {
                                                                                 files:
                                                                                   [
                                                                                     {
-                                                                                      name: "rexom.mp4",
+                                                                                      name: "isab.mp4",
                                                                                       attachment:
                                                                                         axiosData
                                                                                           .data
