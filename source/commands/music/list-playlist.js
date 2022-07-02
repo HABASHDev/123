@@ -4,7 +4,7 @@ const db = require("quick.db");
 module.exports = {
   name: "list-playlist",
   aliases: [],
-  description: "preview all your playlists",
+  description: "معاينة جميع قوائم التشغيل الخاصة بك",
 
   /**
    *
