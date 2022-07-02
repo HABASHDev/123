@@ -34,7 +34,7 @@ module.exports = {
         if (queue.paused == true)
           return embed.err(
             message,
-            "**والله الموسيقى وقفه متبقاش بضان و دوس تاني**"
+            "**هذه الموسيقى كلها جاهزة متوقفة مؤقتًا**"
           );
         player.pause(message);
         embed.done(message, "**تم أيقاف الموسقى**");
