@@ -11,7 +11,7 @@ const embed = require("../../structures/embeds");
 module.exports = {
   name: "skip",
   aliases: [],
-  description: "Skip The Music",
+  description: "لتخطي الموسيقى الحاليه",
 
   /**
    *
@@ -40,10 +40,10 @@ module.exports = {
         const queue = player.getQueue(message);
         if (!queue) return embed.notQueue(message, lang);
         if (queue.songs.map((song, i) => i).length == 1)
-          return embed.err(message, "**مفيش حاجه اسكب ليه هل ات عبيت**");
+          return embed.err(message, "**ماكو شي مشتغل حوبي ♥️😔**");
         else {
           player.skip(message);
-          embed.done(message, "**تم تخطي الغنيه**");
+          embed.done(message, "**تم التخطي حوبي**");
         }
       }
     } catch {
