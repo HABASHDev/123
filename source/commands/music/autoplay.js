@@ -5,7 +5,7 @@ const embed = require("../../structures/embeds");
 module.exports = {
   name: "autoplay",
   aliases: ["ap"],
-  description: "AutoPlay Music",
+  description: "تشغيل وضع التلقئاء",
 
   /**
    *
