@@ -4,7 +4,7 @@ const embed = require("../../structures/embeds");
 module.exports = {
   name: "delete-playlist",
   aliases: [],
-  description: "delete an playlists",
+  description: "لحذف قوائم التشغيل ",
 
   /**
    *
