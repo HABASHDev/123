@@ -11,12 +11,12 @@ const embed = require("../../structures/embeds");
 
 module.exports = {
   name: "jump",
-  description: "skip a specific song",
+  description: "تخطي اغنيه معينة",
   type: "CHAT_INPUT",
   options: [
     {
       name: "value",
-      description: "The Song Number On The Queue",
+      description: "رقم الأغنية في قائمة الانتظار",
       type: "NUMBER",
       required: true,
     },
