@@ -5,7 +5,7 @@ const embed = require("../../structures/embeds");
 module.exports = {
   name: "lang",
   aliases: [],
-  description: "Change The Bot Lang In The Guild",
+  description: "لتغيير لغة البوت في السيرفر",
 
   /**
    *
@@ -51,7 +51,7 @@ module.exports = {
           );
       } else if (lang == "ar") {
         if (!value)
-          return embed.warn(message, "**عليك تحديد لغه البوت ['ar', 'en']**");
+          return embed.warn(message, "**عليك تحديد لغة البوت ['ar', 'en']**");
         if (
           message.member.permissions.has([Permissions.FLAGS.ADMINISTRATOR]) ||
           message.member.roles.cache.find(
@@ -75,7 +75,7 @@ module.exports = {
         } else
           embed.err(
             message,
-            'يجب انت تحصل على رتبة "DJ" او صلحيات الأدمنستناتور'
+            'يجب ان تحصل على صلاحيات الادمنستريتر او رتبه ديجي'
           );
       }
     } catch {
