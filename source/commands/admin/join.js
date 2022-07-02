@@ -6,7 +6,7 @@ const embed = require("../../structures/embeds");
 module.exports = {
   name: "join",
   aliases: ["set-join"],
-  description: "24/7 in the channel",
+  description: "لتثبيت البوت 24 ساعه في الروم",
 
   /**
    *
