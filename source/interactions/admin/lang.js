@@ -10,12 +10,12 @@ const embed = require("../../structures/embeds");
 
 module.exports = {
   name: "lang",
-  description: "Change The Bot Lang In The Guild",
+  description: "لتغيير لغة البوت في السيرفر",
   type: "CHAT_INPUT",
   options: [
     {
       name: "value",
-      description: "The new lang",
+      description: "اختر احد اللغات",
       type: "STRING",
       required: true,
       choices: [
@@ -107,7 +107,7 @@ module.exports = {
         } else
           embed.err(
             interaction,
-            '**يجب انت تحصل على رتبة "DJ" او صلحيات الأدمنستناتور**',
+            '** "DJ" او صلحيات الأدمنستناتور**',
             "/"
           );
       }
