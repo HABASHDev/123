@@ -3,7 +3,7 @@ const { Client, Message, MessageEmbed, Permissions } = require("discord.js");
 module.exports = {
   name: "ping",
   aliases: [],
-  description: "get the bot ping",
+  description: "لأضهار سرعة البوت",
 
   /**
    *
