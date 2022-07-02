@@ -6,7 +6,7 @@ const embed = require('../../structures/embeds');
 module.exports = {
     name: "setup",
     aliases: [],
-    description: "Setup A Music Collector Channel",
+    description: "لصنع او اختيار شات تحكم في البوت عن طريق الرياكشن",
 
     /**
      * 
