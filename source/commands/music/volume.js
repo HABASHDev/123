@@ -11,7 +11,7 @@ const embed = require("../../structures/embeds");
 module.exports = {
   name: "volume",
   aliases: [],
-  description: "Controle Volume The Music",
+  description: "لتغيير مستوى صوت الموسيقى",
 
   /**
    *
