@@ -5,7 +5,7 @@ const { player } = require('../../index');
 const embed = require("../../structures/embeds");
 
 module.exports = {
-    name: "delete-playlist",
+    name: "لحذف قوائم التشغيل",
     description: "delete an playlists",
     type: 'CHAT_INPUT',
     options: [{
