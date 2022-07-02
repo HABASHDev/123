@@ -5,7 +5,7 @@ const embed = require("../../structures/embeds");
 module.exports = {
   name: "youtube-together",
   aliases: [],
-  description: "Watch Youtube Together",
+  description: "مشاهدة يوتيوب معا في الرومات الصوتيه",
 
   /**
    *
