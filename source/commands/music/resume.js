@@ -5,7 +5,7 @@ const embed = require("../../structures/embeds");
 module.exports = {
     name: "resume",
     aliases: [],
-    description: "Resume The Music",
+    description: "استئناف الموسيقى",
 
     /**
      * 
