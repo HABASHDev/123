@@ -19,7 +19,7 @@ module.exports = async (client) => {
     if (data[0].name !== "3.2.0") {
       if (user) user
         .send(
-          `**reXom Have a new update!! :tada:**\n\`${data[0].name}\` is naw available on https://github.com/DevelopersSupportAR/rexom`
+          `**sadk Have a new update!! :tada:**\n\`${data[0].name}\` is naw available  `
         )
         .catch(() => {});
     }
