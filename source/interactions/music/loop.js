@@ -11,12 +11,12 @@ const embed = require("../../structures/embeds");
 
 module.exports = {
   name: "loop",
-  description: "Loop Queue/Song",
+  description: "لتكرار الاغنيه الحاليه",
   type: "CHAT_INPUT",
   options: [
     {
       name: "value",
-      description: "The Loop Mode Type",
+      description: "نوع وضع التكرار",
       type: "STRING",
       required: false,
       choices: [
