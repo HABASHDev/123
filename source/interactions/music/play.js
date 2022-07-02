@@ -11,12 +11,12 @@ const embed = require("../../structures/embeds");
 
 module.exports = {
   name: "play",
-  description: "Play a music/playlist",
+  description: "لتشغيل الموسيقى",
   type: "CHAT_INPUT",
   options: [
     {
       name: "song",
-      description: "The Song/Playlist Name/Url",
+      description: "اسم الاغنيه او رابط من يوتيوب",
       type: "STRING",
       required: true,
     },
