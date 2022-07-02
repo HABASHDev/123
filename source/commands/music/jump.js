@@ -6,7 +6,7 @@ const embed = require("../../structures/embeds");
 module.exports = {
   name: "jump",
   aliases: [],
-  description: "skip a specific song",
+  description: "تخطي أغنية معينة",
 
   /**
    *
