@@ -5,7 +5,7 @@ const embed = require("../../structures/embeds");
 module.exports = {
   name: "prefix",
   aliases: [],
-  description: "Change The Bot Prefix In The Guild",
+  description: "لتغيير برفكس البوت في السيرفر",
 
   /**
    *
@@ -68,7 +68,7 @@ module.exports = {
         } else
           return embed.err(
             message,
-            '**يجب انت تحصل على رتبة "DJ" او صلحيات الأدمنستناتور**'
+            '**يجب ان تحصل على صلاحيات الادمنستريتر او رتبه ديجي**'
           );
       }
     } catch {
