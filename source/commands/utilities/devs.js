@@ -15,15 +15,15 @@ module.exports = {
     try {
       let embed = new MessageEmbed()
         .setAuthor(
-          "reXom!.",
+          "𝐈𝐦𝐦𝐨𝐫𝐭𝐚𝐥𝐬!.",
           client.user.avatarURL({ dynamic: true }),
-          "https://discord.com/users/746696275214467112"
+          "https://discord.com/users/657596988149202997"
         )
         .setColor("DARK_GOLD")
         .addFields(
           {
             name: "Developers name",
-            value: "ニロ#3121",
+            value: "",
             inline: true,
           },
           {
