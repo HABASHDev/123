@@ -6,8 +6,7 @@ const embed = require("../../structures/embeds");
 module.exports = {
   name: "leave",
   aliases: [],
-  description: "leave the 24/7 channel",
-
+  description: "لـ ازالة تثبيت البوت في الروم
   /**
    *
    * @param {Client} client
