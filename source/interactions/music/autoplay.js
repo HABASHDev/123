@@ -6,7 +6,7 @@ const embed = require("../../structures/embeds");
 
 module.exports = {
     name: "autoplay",
-    description: "Set Auto Play Toggle",
+    description: "تشغيل وضع التلقئاء",
     type: 'CHAT_INPUT',
 
     /**
