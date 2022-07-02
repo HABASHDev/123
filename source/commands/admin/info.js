@@ -3,7 +3,7 @@ const { Client, Message, Guild, MessageEmbed } = require("discord.js");
 module.exports = {
   name: "info",
   aliases: ["bot"],
-  description: "Bot Inforamtion",
+  description: "معلومات البوت",
 
   /**
    *
