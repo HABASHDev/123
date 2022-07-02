@@ -18,7 +18,7 @@ module.exports = async (client, reaction, user) => {
       if (reaction.message.id == data.msgID) {
         if (!reaction.message.guild.members.cache.get(user.id).voice.channel)
           reaction.message.channel.send({
-            content: emojis.error + " | please join a voice channel first!",
+            content: emojis.error + " | انت ماموجود بروم صوتي اصلا؟!",
           });
         if (reaction.message.guild.me.voice.channel) {
           if (
@@ -28,7 +28,7 @@ module.exports = async (client, reaction, user) => {
             reaction.message.channel.send({
               content:
                 emojis.error +
-                " | you must join an same voice channel iam in <#" +
+                " | يجب ان تنضم بلروم الصوتي المثبت به البوت <#" +
                 reaction.message.guild.me.voice.channel
                   ? reaction.message.guild.me.voice.channel.id
                   : 0 + ">!",
@@ -50,10 +50,10 @@ module.exports = async (client, reaction, user) => {
             reaction.message.edit({
               embeds: [
                 new MessageEmbed()
-                  .setAuthor("No song playing currently")
+                  .setAuthor("ماكو اغنيه مشتغله اصلا؟")
                   .setColor(colors.error)
                   .setImage(
-                    "https://media.discordapp.net/attachments/743880363331420241/902711609112264804/unknown.png"
+                    "https://cdn.discordapp.com/icons/947196669341106306/7af1e18bb50cce6d2d4730755e08ae1e.png?size=1024"
                   ),
               ],
             });
@@ -74,12 +74,12 @@ module.exports = async (client, reaction, user) => {
                     new MessageEmbed()
                       .setAuthor(
                         require("../music/playSong").song.name ||
-                          "No song playing currently"
+                          "ماكو اغنيه مشتغله اصلا؟"
                       )
                       .setColor(colors.error)
                       .setImage(
                         require("../music/playSong").song.thumbnail ||
-                          "https://media.discordapp.net/attachments/743880363331420241/902711609112264804/unknown.png"
+                          "https://cdn.discordapp.com/icons/947196669341106306/7af1e18bb50cce6d2d4730755e08ae1e.png?size=1024"
                       ),
                   ],
                 });
