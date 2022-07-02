@@ -13,7 +13,7 @@ const embed = require("../../structures/embeds");
 module.exports = {
   name: "search",
   aliases: [],
-  description: "Make The Bot Say Any Thing",
+  description: "اجعل البوت يقول أي شيء",
 
   /**
    *
