@@ -18,16 +18,16 @@ module.exports = {
     run: async(client, message, args, prefix, lang) => {
         try {
             if (!message.member.permissions.has([Permissions.FLAGS.ADMINISTRATOR])) return message.react(emojis.error);
-            message.guild.channels.create('rexom-🎶', {
+            message.guild.channels.create('𝐈𝐦𝐦𝐨𝐫𝐭𝐚𝐥𝐬-🎶', {
                 type: "GUILD_TEXT",
                 topic: "Give your server a tune. :notes:"
             }).then(async channel => {
-                embed.done(message, "**reXom Channel Has Setup Here**: <#" + channel.id + ">");
+                embed.done(message, "**𝐈𝐦𝐦𝐨𝐫𝐭𝐚𝐥𝐬 Channel Has Setup Here**: <#" + channel.id + ">");
                 channel.send({
                     embeds: [
                         new MessageEmbed()
                         .setAuthor("No song playing currently")
-                        .setImage("https://media.discordapp.net/attachments/743880363331420241/902711609112264804/unknown.png")
+                        .setImage("https://cdn.discordapp.com/icons/947196669341106306/7af1e18bb50cce6d2d4730755e08ae1e.png?size=1024")
                     ],
                 }).then(async msg => {
                     msg.react('⏹️')
