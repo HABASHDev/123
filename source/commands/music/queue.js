@@ -6,7 +6,7 @@ const { player } = require('../../index');
 module.exports = {
         name: "queue",
         aliases: [],
-        description: "Preview The Server Queue",
+        description: "معاينة قائمة انتظار السيرفر",
 
         /**
          * 
