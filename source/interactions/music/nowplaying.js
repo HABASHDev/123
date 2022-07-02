@@ -12,7 +12,7 @@ const embed = require("../../structures/embeds");
 
 module.exports = {
   name: "nowplaying",
-  description: "What is paying",
+  description: "ما الذي يدفع",
   type: "CHAT_INPUT",
 
   /**
