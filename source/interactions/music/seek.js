@@ -11,12 +11,12 @@ const embed = require("../../structures/embeds");
 
 module.exports = {
   name: "seek",
-  description: "Skips to the specified timestamp in the track",
+  description: "يتخطى الثواني المكتوبه مع الانر",
   type: "CHAT_INPUT",
   options: [
     {
       name: "value",
-      description: "the timestamp",
+      description: "اكتب الثواني رقماً",
       type: "NUMBER",
       required: true,
     },
