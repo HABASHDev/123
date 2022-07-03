@@ -11,7 +11,7 @@ const embed = require("../../structures/embeds");
 
 module.exports = {
   name: "stop",
-  description: "Stop The Music",
+  description: "أوقف الموسيقى",
   type: "CHAT_INPUT",
 
   /**
