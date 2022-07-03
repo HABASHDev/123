@@ -12,7 +12,7 @@ const embeds = require("../../structures/embeds");
 
 module.exports = {
   name: "youtube-together",
-  description: "Watch Youtube in discord",
+  description: "مشاهدة يوتيوب معا في الرومات الصوتيه",
   type: "CHAT_INPUT",
 
   /**
