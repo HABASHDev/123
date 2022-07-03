@@ -11,7 +11,7 @@ const embed = require("../../structures/embeds");
 
 module.exports = {
   name: "queue",
-  description: "معاينة قائمة السيرفر",
+  description: "معاينة قائمة انتضار السيرفر",
   type: "CHAT_INPUT",
 
   /**
