@@ -17,12 +17,12 @@ const embed = require("../../structures/embeds");
 
 module.exports = {
   name: "say",
-  description: "Make The Bot Say Any Thing",
+  description: "اجعل البوت يقول أي شيء",
   type: "CHAT_INPUT",
   options: [
     {
       name: "value",
-      description: "the word that the bot will say",
+      description: "الكلمة الذي سيقولها البوت",
       type: "STRING",
       required: true,
     },
