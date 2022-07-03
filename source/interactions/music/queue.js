@@ -11,7 +11,7 @@ const embed = require("../../structures/embeds");
 
 module.exports = {
   name: "queue",
-  description: "Preview The Server Queue",
+  description: "معاينة قائمة السيرفر",
   type: "CHAT_INPUT",
 
   /**
@@ -36,7 +36,7 @@ module.exports = {
               .setAuthor(
                 `Server Queue`,
                 client.user.avatarURL({ dynamic: true }),
-                `https://discord.com/users/746696275214467112`
+                `https://discord.com/users/657596988149202997`
               )
               .setColor("YELLOW")
               .setDescription(
@@ -73,7 +73,7 @@ module.exports = {
               .setAuthor(
                 `Server Queue`,
                 client.user.avatarURL({ dynamic: true }),
-                `https://discord.com/users/746696275214467112`
+                `https://discord.com/users/657596988149202997`
               )
               .setColor("YELLOW")
               .setDescription(
