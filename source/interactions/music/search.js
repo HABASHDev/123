@@ -12,12 +12,12 @@ const embed = require("../../structures/embeds");
 
 module.exports = {
   name: "search",
-  description: "Search For Music",
+  description: "ابحث عن الموسيقى",
   type: "CHAT_INPUT",
   options: [
     {
       name: "value",
-      description: "the word that the bot will search on it",
+      description: "الكلمة التي تريد البحث عنها",
       type: "STRING",
       required: true,
     },
