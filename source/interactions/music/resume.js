@@ -11,7 +11,7 @@ const embed = require("../../structures/embeds");
 
 module.exports = {
   name: "resume",
-  description: "Resume The Music",
+  description: "استئناف الموسيقى",
   type: "CHAT_INPUT",
 
   /**
@@ -43,7 +43,7 @@ module.exports = {
         if (queue.paused == false)
           return embed.warn(
             interaction,
-            "**لم يتم ايقاف الموسيى اصلا انت بتعمل ايه**",
+            "**ماكو شي مشتغل اصلا!**",
             "/"
           );
         player.resume(interaction);
