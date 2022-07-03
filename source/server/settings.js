@@ -2,7 +2,7 @@ const { client } = require('../index');
 
 module.exports = {
     "webiste": {
-        "support": "https://discord.com/users/746696275214467112",
+        "support": "https://discord.com/users/657596988149202997",
         "domain": require('../../config/bot.json').domain,
     },
     "config": {
