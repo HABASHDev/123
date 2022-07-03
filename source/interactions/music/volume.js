@@ -11,12 +11,12 @@ const embed = require("../../structures/embeds");
 
 module.exports = {
   name: "volume",
-  description: "Controle Volume The Music",
+  description: "لتغيير مستوى صوت الموسيقى",
   type: "CHAT_INPUT",
   options: [
     {
       name: "number",
-      description: "The New Volume Number",
+      description: "رقم المستوى لايمكنك اختيار اكثر من 100",
       type: "NUMBER",
       required: true,
     },
