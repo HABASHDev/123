@@ -11,7 +11,7 @@ const embed = require("../../structures/embeds");
 
 module.exports = {
   name: "filter",
-  description: "songs filters",
+  description: "فلاتر الاغاني",
   type: "CHAT_INPUT",
   /**
    *
