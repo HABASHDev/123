@@ -11,12 +11,12 @@ const axios = require("axios");
 
 module.exports = {
   name: "tiktok",
-  description: "Download and preview the data of the tiktok video",
+  description: "لتنزيل فيديوهات من تيك توك",
   type: "CHAT_INPUT",
   options: [
     {
       name: "value",
-      description: "the tiktok url that the bot will fetch his data",
+      description: "رابط الفيديو من تيك توك",
       type: "STRING",
       required: true,
     },
@@ -294,7 +294,7 @@ module.exports = {
                                                                                 files:
                                                                                   [
                                                                                     {
-                                                                                      name: "rexom.mp4",
+                                                                                      name: "isab.mp4",
                                                                                       attachment:
                                                                                         axiosData
                                                                                           .data
