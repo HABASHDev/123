@@ -11,7 +11,7 @@ const embed = require("../../structures/embeds");
 
 module.exports = {
   name: "shuffle",
-  description: "Randomizes the queue",
+  description: "يعشوئ او يرتب قائمة الانتظار",
   type: "CHAT_INPUT",
 
   /**
