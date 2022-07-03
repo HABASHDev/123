@@ -12,7 +12,7 @@ const embed = require("../../structures/embeds");
 
 module.exports = {
   name: "music-data",
-  description: "get all the playing music data",
+  description: "الحصول على جميع بيانات الموسيقى قيد التشغيل",
   type: "CHAT_INPUT",
 
   /**
